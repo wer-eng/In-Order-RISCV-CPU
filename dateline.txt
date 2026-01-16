@@ -1,0 +1,82 @@
+Spec & mimari
+
+ISA checklist (RV32I full)
+
+Pipeline aşamaları
+
+Exception listesi
+✅ En kritik adım
+
+Gün 4–8
+
+Temel CPU çalışsın
+
+IF / ID / EX / MEM / WB
+
+Register file
+
+ALU
+
+Single-step test
+
+➡️ Bu noktada CPU “çalışıyormuş gibi” olur ama hatalıdır
+
+Gün 9–13
+
+Hazard & branch
+
+Forwarding
+
+Load-use stall
+
+Branch flush
+
+➡️ İlk ciddi debug dönemi
+
+Gün 14–17
+
+Exceptions
+
+Illegal instruction
+
+Misaligned access
+
+EBREAK
+
+Precise trap flow
+
+➡️ Burada CPU “adam olmaya” başlar
+
+Gün 18–21
+
+Directed verification
+
+ISA testleri
+
+Corner case’ler
+
+Reset / flush / back-to-back ops
+
+Gün 22–27
+
+Minimal UVM
+
+Instruction agent
+
+Monitor
+
+Scoreboard
+
+Random test
+
+➡️ Prestijin çıktığı yer
+
+Gün 28–30
+
+Stabilizasyon & dokümantasyon
+
+Bug fix
+
+Timing diagram
+
+README / block diagram

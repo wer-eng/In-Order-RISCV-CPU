@@ -28,4 +28,5 @@ package cpu_types_pkg;
         ALU_BLTU,
         ALU_BGEU
     } alu_op_t;
+    
 endpackage

@@ -131,7 +131,7 @@ always_comb begin
             alu_srcA=PC;
             alu_srcB=IMM;
             alu_src=1'b1;
-            wb_src=alu;
+            wb_src=ALU;
             alu_control = ALU_ADD;
         end
 

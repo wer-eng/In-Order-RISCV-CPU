@@ -20,7 +20,7 @@ always_comb begin
         5'b01101,5'b00101: //U_TYPE
             imm = {instr[31:12], 12'b0};
         5'b11011 : //J_TYPE
-            imm_J = {{11{instr[31]}},instr[31],instr[19:12],instr[20],instr[30:21],1'b0};
+            imm = {{11{instr[31]}},instr[31],instr[19:12],instr[20],instr[30:21],1'b0};
         default: imm = 32'd0;
     endcase 
 
